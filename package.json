@@ -12,14 +12,17 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
+    "@swc/plugin-emotion": "^11.1.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
-    "@vitejs/plugin-react": "^5.0.0",
+    "@vitejs/plugin-react-swc": "^4.0.1",
     "eslint": "^9.33.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
